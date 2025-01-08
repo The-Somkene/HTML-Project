@@ -9,37 +9,112 @@
     <header align="center">
         <h1>MY PROFILE</h1>
         <img src="photo1.jpg" width="10%" height="10%" alt="portfolio picture"/>
-        <h3>NDIFE SOMKENECHUKWU</h3>
+        <h2>NDIFE SOMKENECHUKWU</h2>
         <nav>
             <h3>
-                <a href="home"> HOME </a> &#124;
-                <a href="about"> ABOUT </a> &#124;
-                <a href="work"> WORK </a> &#124;
-                <a href="resume"> RESUME </a> &#124;
-                <a href="contact"> CONTACT</a>
+                <a href="#home"> HOME </a> &#124;
+                <a href="#about"> ABOUT </a> &#124;
+                <a href="#work"> WORK </a> &#124;
+                <a href="#resume"> RESUME </a> &#124;
+                <a href="#contact"> CONTACT</a>
             </h3>
         </nav>
         <hr/>
     </header>
     <main>
-        <section id="about-section">
+        <section id="about">
+            <h3><a name="about">ABOUT</a></h3>
+            <p>
+                I am an experienced software engineer with well developed skills in HTML, CSS, JavaScript. I am an enthusiastic, self-motivated, reliable, responsible and hard working person. I am a team player and can adaptable to challenging situations. I am able to work well both in a team environment as well as using own initiative
+            </p>
+            <br/>
+            <audio controls>
+                <source src="Welcome.mp3" type="audio/mpeg">
+            </audio>
+        </section>
+
+        <section id="work">
+            <h3><a name="work">What I Do!</a></h3>
+            <ol type="I">
+                <li>
+                    <b>Front End Developer</b>
+                    - I am versatile in client-side scripting, which refers to everything that the end users experience directly.
+                </li>
+                <li>
+                    <b>Back End Developer</b>
+                    - I am also skilled in server-side scripting, which is all about what goes on behind the scenes to ensure that the client-side runs smoothly.
+                </li>
+                <li>
+                    <b>Full Stake Developer</b>
+                    - I am able to develop both client and server softwares. I am also able to program a webpage, program a server, and also program a database
+                </li>
+            </ol>
+            <b>Web Languages</b>
+                <ul>
+	                <li>HTML</li>
+	                <li>CSS</li>
+	                <li>JS</li>
+                </ul>
 
         </section>
 
-        <section id="work-section">
-
+        <section id="resume">
+            <h3><a name="resume">Experience</a></h3>
+            <ul>
+                <li>
+                    <dl>
+                    <dt><b>Lead Software Engineer</b> - Scotia Bank, Toronto, ON</dt>
+                    <dd><i>October 2023 - Present</i></dd>
+                    </dl>
+                </li>
+                <ol type="i">
+                    <li>Developed and maintained ten websites using React and Node.js.</li>
+                    <li>Collaborated with designers to translate UI/UX designs into functional web applications.</li>
+                    <li>Improved website performance by 80% by optimizing images and code.</li>
+                </ol>
+                <br/>
+                <li>
+                    <dl>
+                    <dt><b>Associate Software Engineer</b> - Veeva Systems, Toronto, ON</dt>
+                    <dd><i>January 2022 - September 2023</i></dd>
+                    </dl>
+                </li>
+                <ol type="i">
+                    <li>Implemented and tested five new features and bug fixes, ensuring improved user experience, enhanced system stability, and increased application efficiency</li>
+                    <li>Developed and maintained seven web applications using Java, Spring Boot, and React, contributing to improved website performance by 85%, and reduced development time by 70%</li>
+                    <li>Collaborated effectively with cross-functional teams (designers, product managers, QA) to deliver high-quality software solutions, adhering to agile methodologies and meeting project deadlines</li>
+                </ol>
+            </ul>
+            <h3>Qualification</h3>
+            <ol type="A">
+                <li>Masters in Computer Science</li>
+                <li>Bachelor Degree in Computer Science</li>
+            </ol>
         </section>
 
-        <section id="resume-section">
-
-        </section>
-
-        <section id="contact-section">
-
+        <section id="contact">
+            <h3><a name="contact">Contact Me</a></h3>
+            Lets collaborate, call +234 8141220499
+            <p><b>Send me a message</b></p>
+            <form>
+                <label>Name:</label>
+                <input type="text" name="full name" placeholder="Type your name here" required/>
+                <label>Phone Number:</label>
+                <input type="number" name="phone number" value=""/>
+                <label>Email:</label>
+                <input type="email" name="email" placeholder="abcd@gmail.com" required/>
+                <br/>
+                <br/>
+                <textarea name="message" cols="30" rows="5">Write your message</textarea>
+                <br/>
+                <button type="submit">Submit</button>
+            </form>
         </section>
     </main>
     <footer>
-
+        <address align="center">
+            copyright &copy; 2024 Ndife Somkenechukwu Portfolio. All rights reserved
+        </address>
     </footer>
 </body>
 </html>
