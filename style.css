@@ -1,0 +1,22 @@
+body{
+    font-family: roboto;
+}
+header{
+    display:flex;
+    flex-direction: column;
+}
+.nav{
+    display: flex;
+    justify-content: center;
+}
+
+.nav_link{
+    display: flex;
+    justify-content:space-around;
+    width: 50%;
+}
+
+.nav_link li a{
+    text-decoration: none;
+}
+
