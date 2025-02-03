@@ -4,13 +4,19 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>HTML Project</title>
+
+    <!-- Linking external CSS file -->
     <link rel="stylesheet" href="./style.css"/>
+
+    <!-- Google Fonts (Roboto) -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
 </head>
 <body>
+    <!-- Header Section -->
     <header>
+        <!-- Navigation Menu -->
         <nav class="nav">
             <ul type="none" class="nav_link">
                 <li><a href="#home"> HOME </a></li>
@@ -20,55 +26,75 @@
                 <li><a href="#contact"> CONTACT</a></li>
             </ul>
         </nav>
+
+        <!-- Profile Title -->
         <h1>MY PROFILE</h1>
+
+        <!-- Profile Picture -->
         <img src="photo1.jpg" width="10%" height="10%" alt="portfolio picture"/>
+
+        <!-- Name -->
         <h2>NDIFE SOMKENECHUKWU</h2>
         <hr/>
     </header>
+
+    <!-- Main Content -->
     <main>
+        <!-- About Section -->
         <section id="about">
             <h3><a name="about">ABOUT</a></h3>
             <p>
-                I am an experienced software engineer with well developed skills in HTML, CSS, JavaScript. I am an enthusiastic, self-motivated, reliable, responsible and hard working person. I am a team player and can adaptable to challenging situations. I am able to work well both in a team environment as well as using own initiative
+                I am an experienced software engineer with well-developed skills in HTML, CSS, JavaScript.
+                I am an enthusiastic, self-motivated, reliable, responsible, and hard-working person.
+                I am a team player and can adapt to challenging situations.
+                I am able to work well both in a team environment as well as using my own initiative.
             </p>
             <br/>
+
+            <!-- Audio Element -->
             <audio controls>
                 <source src="Welcome.mp3" type="audio/mpeg">
             </audio>
         </section>
 
+        <!-- Work Section -->
         <section id="work">
             <h3><a name="work">What I Do!</a></h3>
+            
+            <!-- List of roles -->
             <ol type="I">
                 <li>
                     <b>Front End Developer</b>
-                    - I am versatile in client-side scripting, which refers to everything that the end users experience directly.
+                    - I specialize in client-side scripting, focusing on everything users interact with directly.
                 </li>
                 <li>
                     <b>Back End Developer</b>
-                    - I am also skilled in server-side scripting, which is all about what goes on behind the scenes to ensure that the client-side runs smoothly.
+                    - Skilled in server-side scripting, handling what happens behind the scenes to support the frontend.
                 </li>
                 <li>
-                    <b>Full Stake Developer</b>
-                    - I am able to develop both client and server softwares. I am also able to program a webpage, program a server, and also program a database
+                    <b>Full Stack Developer</b>
+                    - Capable of developing both client and server-side applications, including webpage programming, server setup, and database management.
                 </li>
             </ol>
-            <b>Web Languages</b>
-                <ul>
-	                <li>HTML</li>
-	                <li>CSS</li>
-	                <li>JS</li>
-                </ul>
 
+            <!-- Web Development Languages -->
+            <b>Web Languages</b>
+            <ul>
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>JavaScript</li>
+            </ul>
         </section>
 
+        <!-- Resume Section -->
         <section id="resume">
             <h3><a name="resume">Experience</a></h3>
             <ul>
+                <!-- Lead Software Engineer -->
                 <li>
                     <dl>
-                    <dt><b>Lead Software Engineer</b> - Scotia Bank, Toronto, ON</dt>
-                    <dd><i>October 2023 - Present</i></dd>
+                        <dt><b>Lead Software Engineer</b> - Scotia Bank, Toronto, ON</dt>
+                        <dd><i>October 2023 - Present</i></dd>
                     </dl>
                 </li>
                 <ol type="i">
@@ -77,47 +103,65 @@
                     <li>Improved website performance by 80% by optimizing images and code.</li>
                 </ol>
                 <br/>
+
+                <!-- Associate Software Engineer -->
                 <li>
                     <dl>
-                    <dt><b>Associate Software Engineer</b> - Veeva Systems, Toronto, ON</dt>
-                    <dd><i>January 2022 - September 2023</i></dd>
+                        <dt><b>Associate Software Engineer</b> - Veeva Systems, Toronto, ON</dt>
+                        <dd><i>January 2022 - September 2023</i></dd>
                     </dl>
                 </li>
                 <ol type="i">
-                    <li>Implemented and tested five new features and bug fixes, ensuring improved user experience, enhanced system stability, and increased application efficiency</li>
-                    <li>Developed and maintained seven web applications using Java, Spring Boot, and React, contributing to improved website performance by 85%, and reduced development time by 70%</li>
-                    <li>Collaborated effectively with cross-functional teams (designers, product managers, QA) to deliver high-quality software solutions, adhering to agile methodologies and meeting project deadlines</li>
+                    <li>Implemented and tested five new features and bug fixes, ensuring improved user experience, enhanced system stability, and increased application efficiency.</li>
+                    <li>Developed and maintained seven web applications using Java, Spring Boot, and React, contributing to improved website performance by 85%, and reduced development time by 70%.</li>
+                    <li>Collaborated effectively with cross-functional teams (designers, product managers, QA) to deliver high-quality software solutions, adhering to agile methodologies and meeting project deadlines.</li>
                 </ol>
             </ul>
+
+            <!-- Qualification Section -->
             <h3>Qualification</h3>
             <ol type="A">
                 <li>Masters in Computer Science</li>
-                <li>Bachelor Degree in Computer Science</li>
+                <li>Bachelor's Degree in Computer Science</li>
             </ol>
         </section>
 
+        <!-- Contact Section -->
         <section id="contact">
             <h3><a name="contact">Contact Me</a></h3>
             Lets collaborate, call +234 8141220499
+            
+            <!-- Contact Form -->
             <p><b>Send me a message</b></p>
             <form>
+                <!-- Name Input -->
                 <label>Name:</label>
                 <input type="text" name="full name" placeholder="Type your name here" required/>
+                
+                <!-- Phone Number Input -->
                 <label>Phone Number:</label>
                 <input type="number" name="phone number" value=""/>
+                
+                <!-- Email Input -->
                 <label>Email:</label>
                 <input type="email" name="email" placeholder="abcd@gmail.com" required/>
                 <br/>
                 <br/>
+                
+                <!-- Message Text Area -->
                 <textarea name="message" cols="30" rows="5">Write your message</textarea>
                 <br/>
+
+                <!-- Submit Button -->
                 <button type="submit">Submit</button>
             </form>
         </section>
     </main>
+
+    <!-- Footer Section -->
     <footer>
         <address align="center">
-            copyright &copy; 2024 Ndife Somkenechukwu Portfolio. All rights reserved
+            &copy; 2024 Ndife Somkenechukwu Portfolio. All rights reserved.
         </address>
     </footer>
 </body>
